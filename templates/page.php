@@ -1,8 +1,6 @@
 <?= $this->layout('site') ?>
-<main>
-    <div class="container">
-        <article>
-            <?= $page->content() ?>
-        </article>
-    </div>
+<main class="container">
+    <article>
+        <?= $page->content() ?>
+    </article>
 </main>
