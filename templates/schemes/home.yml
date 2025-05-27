@@ -1,1 +1,19 @@
-
+title: Home
+default: false
+fields:
+    published:
+        type: checkbox
+        default: true
+        label: '{{pages.status.published}}'
+    routable:
+        type: checkbox
+        default: true
+        label: '{{pages.status.routable}}'
+    visible:
+        type: checkbox
+        default: true
+        label: '{{pages.page.visible}}'
+    cacheable:
+        type: checkbox
+        default: true
+        label: '{{pages.page.cacheable}}'
