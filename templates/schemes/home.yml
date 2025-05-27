@@ -1,5 +1,10 @@
 title: Home
 default: false
+type: listing
+children:
+    templates: [section]
+    reverse: true
+    sortable: true
 fields:
     published:
         type: checkbox
