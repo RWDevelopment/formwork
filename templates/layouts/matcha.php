@@ -5,6 +5,7 @@
     <?= $this->insert('_meta') ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+    <?= $this->assets()->uri('js/script.js') ?>
 </head>
 <body>
 <?= $this->insert('_menu') ?>
