@@ -9,7 +9,6 @@
 </head>
 <body>
 <?= $this->insert('_menu') ?>
-<?= $this->insert('_cover-image') ?>
 <?= $this->content() ?>
     <footer>
         <div class="container small">

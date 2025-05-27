@@ -2,7 +2,7 @@ title: Home
 default: false
 type: listing
 children:
-    templates: [section]
+    templates: [section, module]
     reverse: true
     sortable: true
 fields:
