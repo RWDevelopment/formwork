@@ -1,9 +1,7 @@
 <?= $this->layout('site') ?>
 <?php if ($page->content()) : ?>
-    <aside>
-        <div class="container">
-            <?= $page->content() ?>
-        </div>
+    <aside class="container">
+         <?= $page->content() ?>
     </aside>
 <?php endif; ?>
 <main class="container">
