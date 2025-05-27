@@ -9,10 +9,6 @@
 <body>
 <?= $this->insert('_menu') ?>
 <?= $this->content() ?>
-    <footer>
-        <div class="container small">
-            &copy; 2017-2020 &mdash; Made with <a href="https://github.com/getformwork/formwork">Formwork</a>
-        </div>
-    </footer>
+<?= $this->insert('_footer') ?>
 </body>
 </html>
